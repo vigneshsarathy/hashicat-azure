@@ -74,3 +74,10 @@ variable "placeholder" {
   default     = "placekitten.com"
   description = "Image-as-a-service URL. Some other fun ones to try are fillmurray.com, placecage.com, placebeard.it, loremflickr.com, baconmockup.com, placeimg.com, placebear.com, placeskull.com, stevensegallery.com, placedog.net"
 }
+
+
+variable "resource_group_name " {
+  default     = "vgs-workshop"
+  description = "The name of an existing resource group to be imported."
+}
+
