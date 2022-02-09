@@ -76,7 +76,7 @@ variable "placeholder" {
 }
 
 
-variable "resource_group_name " {
+variable "resource_group_name" {
   default     = "vgs-workshop"
   description = "The name of an existing resource group to be imported."
 }
